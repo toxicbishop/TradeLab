@@ -294,7 +294,7 @@ importers:
         version: 19.3.0(@types/react@19.3.0)
       '@vitejs/plugin-react':
         specifier: ^6.0.3
-        version: 6.0.5(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0))
+        version: 6.0.5(vite@8.2.4(@types/node@26.2.0)(jiti@2.7.0))
       autoprefixer:
         specifier: ^10.5.3
         version: 10.5.4(postcss@8.5.26)
@@ -323,8 +323,8 @@ importers:
         specifier: ^8.65.0
         version: 8.67.0(eslint@10.8.1(jiti@2.7.0))(typescript@6.0.3)
       vite:
-        specifier: ^8.1.5
-        version: 8.2.1(@types/node@26.2.0)(jiti@2.7.0)
+        specifier: ^8.2.4
+        version: 8.2.4(@types/node@26.2.0)(jiti@2.7.0)
 
 packages:
 
@@ -2939,13 +2939,13 @@ packages:
   victory-vendor@37.3.6:
     resolution: {integrity: sha512-SbPDPdDBYp+5MJHhBCAyI7wKM3d5ivekigc2Dk2s7pgbZ9wIgIBYGVw4zGHBml/qTFbexrofXW6Gu4noGxrOwQ==}
 
-  vite@8.2.1:
-    resolution: {integrity: sha512-EU/eS7BH3XROHh2YnBefjM6DBKA6ZeMZEYQbj7NLWg5wHYlhB8B/Mayd5XsgWq+NFYccDOTemRpdETWR6Ka/lw==}
+  vite@8.2.4:
+    resolution: {integrity: sha512-lfauXnrf2x0p+UoA+wXh0dgFWnUjCyG6Js95KBkgaCwUU9k0DAHI4W6Q0WCx+h+5g+Alce1y4Zi2QjjK0UvGBw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
       '@types/node': ^20.19.0 || >=22.12.0
-      '@vitejs/devtools': ^0.4.0
+      '@vitejs/devtools': ^0.4.0 || ^0.5.0
       esbuild: ^0.27.0 || ^0.28.0
       jiti: '>=1.21.0'
       less: ^4.0.0
@@ -4106,10 +4106,10 @@ snapshots:
       d3-time-format: 4.1.0
       internmap: 2.0.3
 
-  '@vitejs/plugin-react@6.0.5(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0))':
+  '@vitejs/plugin-react@6.0.5(vite@8.2.4(@types/node@26.2.0)(jiti@2.7.0))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.2.1(@types/node@26.2.0)(jiti@2.7.0)
+      vite: 8.2.4(@types/node@26.2.0)(jiti@2.7.0)
 
   accepts@2.0.0:
     dependencies:
@@ -5872,7 +5872,7 @@ snapshots:
       d3-time: 3.1.0
       d3-timer: 3.0.1
 
-  vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0):
+  vite@8.2.4(@types/node@26.2.0)(jiti@2.7.0):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.5
